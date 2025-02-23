@@ -1,0 +1,138 @@
+@media screen and (max-width: 1366px) {
+
+    .nav {
+        padding: 0rem 5rem;
+    }
+
+    .discribe-text {
+        padding: 0rem 5rem;
+    }
+
+}
+
+@media screen and (max-width: 765px) {
+
+    .nav {
+        padding: 0rem 1rem;
+    }
+
+    .discribe-text {
+        padding: 0rem 2rem;
+    }
+
+    .navLinks {
+        display: block;
+        background-color: var(--navLinks-bg);
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 100%;
+        z-index: 100;
+        opacity: 1;
+        visibility: visible;
+        transition: var(--transition-all);
+        z-index: -100;
+        overflow: hidden;
+    }
+
+    .navLinks ul {
+        width: 85%;
+        height: 100vh;
+        background-color: var(--navLinks-ul-bg);
+        position: absolute;
+        right: -50%;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        padding: 80px 25px;
+        transition: var(--transition-all);
+    }
+
+    .navLinks ul li {
+        border-bottom: 1px solid var(--navLinks-ul-li-border);
+        padding-bottom: 10px;
+    }
+
+    .navLinks ul li a {
+        color: #fff !important;
+        font-size: .9rem !important;
+    }
+
+
+    .logoBottom {
+        display: none;
+    }
+
+    .hamberger {
+        display: block;
+    }
+
+    .hamberger .line {
+        width: 22px;
+        height: 2px;
+        background-color: var(--hamberger-line);
+        margin: 5px;
+    }
+
+    .backHamberger {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        color: #fff;
+        font-size: 1.5rem;
+    }
+
+    .hero-heading {
+        text-align: center;
+        padding: 0rem 1rem;
+        font-size: 2.5rem;
+    }
+
+    .discribe-text {
+        padding: 0rem 1rem;
+        font-size: 1rem;
+    }
+
+    .plants-btn {
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 0rem 1rem;
+        text-align: center;
+    }
+
+    footer p {
+        font-size: .9rem;
+    }
+
+    /* page2 */
+
+    .hero-tnk-container {
+        padding: 60px;
+    }
+
+    .hero-tnk-container h1 {
+        font-size: 2rem;
+    }
+
+    .hero-tnk-container a {
+        font-size: .9rem;
+    }
+
+    /* page3 */
+    .hero-about-container {
+        padding: 0rem 1rem;
+    }
+
+    .hero-about-container h1 {
+        font-size: 2rem;
+    }
+
+    .hero-about-container p {
+        font-size: 1rem;
+    }
+
+}
